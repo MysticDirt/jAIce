@@ -1,0 +1,251 @@
+(base) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ conda activate n,o[K[Klp_env
+(nlp_env) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ python main,[K.py
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:15459
+ * Running on http://172.17.0.2:15459 (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Debugger is active!
+ * Debugger PIN: 128-046-793
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:08:51] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/team_members HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/style2.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/chris.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/victoria.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/jace.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/riya.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/phakawat.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:03] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+my dog died
+75
+95
+['my dog died { I am so sorry. I have two dogs now as well.\n']
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[32mPOST /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/generate_text/ HTTP/1.1[0m" 302 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:09:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:01] "[32mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459 HTTP/1.1[0m" 308 -
+127.0.0.1 - - [24/Jun/2022 00:15:01] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:02] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+my dog died
+75
+95
+["my dog died { I'm so sorry. I just had a dog die a few years ago.\n"]
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[32mPOST /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/generate_text/ HTTP/1.1[0m" 302 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:13] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+my dog died
+75
+95
+["my dog died { I'm so sorry. I have two dogs that do that, but they're just a part of the life that comes with us.\n"]
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[32mPOST /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/generate_text/ HTTP/1.1[0m" 302 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:23] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:24] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/team_members HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/chris.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/landscape.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/style2.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/jace.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/victoria.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/riya.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/phakawat.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:15:25] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:16:19] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 00:16:19] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:16:19] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 00:16:20] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+(base) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ 
+(base) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ conda activate m[Knlp_env
+(nlp_env) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ python main.,[K[K.py 
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:15459
+ * Running on http://172.17.0.2:15459 (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Debugger is active!
+ * Debugger PIN: 735-155-277
+127.0.0.1 - - [24/Jun/2022 16:48:01] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:01] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+my dog died
+5
+95
+['my dog died { I am so sorry. I have had a dog die a few years ago.\n']
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[32mPOST /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/generate_text/ HTTP/1.1[0m" 302 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:22] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/team_members HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/style2.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/chris.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/landscape.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/jace.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/victoria.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/riya.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/phakawat.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:32] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:48:40] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+^C(nlp_env) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ python main.py 
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:15459
+ * Running on http://172.17.0.2:15459 (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc6.ai-camp.dev/1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/
+
+
+ * Debugger is active!
+ * Debugger PIN: 821-357-688
+127.0.0.1 - - [24/Jun/2022 16:51:11] "GET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/jquery.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/scripts.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[33mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/js/text_gen.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/arrow.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/Woman%20comforting%20crying%20friend%20(1).jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/unknown.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/Lets%20Coffee.otf HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/img/image4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [24/Jun/2022 16:51:11] "[36mGET /1fa12b28-150c-450e-a4e1-cb1fdadc402b/port/15459/static/fonts/CreamCake.otf HTTP/1.1[0m" 304 -
+^C(nlp_env) ]0;~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[01;34m~/SC22-BatchA-Synthetic-Codes-Empathetic-Bot/app[00m$ 

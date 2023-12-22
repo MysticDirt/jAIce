@@ -1,0 +1,37 @@
+.circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.team {
+    background-color:#a4c7b1; 
+    text-align:left; 
+    vertical-align: middle; 
+    padding:20px 47px; 
+    border-radius: 25px;
+}
+
+.h1t {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: underline;
+  font-size: 26px;
+}
+
+.h2t {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 22px;
+}
+
+.just {
+  text-align: center;
+}
+
+.mt-5{
+    color: white;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>jAIce</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- JQUERY -->
+        <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='/css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+ 
+       <div class="navbar">
+        <nav>
+            <ul class="sidebar-nav"> 
+              <li class="nav-item" style="float:left"><h3 class="custom-font2" style="text-align:center; color:white; margin:0px; padding: 9px 16px; letter-spacing:2px">
+                jAIce: The Empathetic Robot
+                </h3></li>
+              <li class="nav-item custom-font2" ><a href={{ url_for('home')}} style="color:#C2E5CF" "custom-font">Home </a></li>
+              <li class="nav-item custom-font2"><a href={{ url_for('team_members')}}>Our Team</a></li>
+              <li class="nav-item custom-font2"><a href="https://www.ai-camp.org">AI Camp</a></li>
+              
+            </ul>
+        </nav>
+      </div>
+        <!--Header-->
+      
+      <div class="header">
+        <div class="container header-container">
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1 text-primary custom-font">jAIce</h1>
+                <h3 class="mb-5 text-light"><em>the empathetic robot here to comfort you.</em></h3>
+          </div>
+        </header>
+            
+          <div class = "picture">
+            <div class = "arrow">
+              <img src = "{{ url_for('static', filename='img/arrow.png') }}" width = "200" height = "200">
+            </div>
+            <div class = "arrow">
+              <img src = "{{ url_for('static', filename='img/arrow.png') }}" width = "200" height = "200">
+            </div>
+            <div class = "arrow">
+              <img src = "{{ url_for('static', filename='img/arrow.png') }}" width = "200" height = "200">
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+      
+        <!-- The Project. Note: https://thesabbir.github.io/simple-line-icons/ will give you a cheat sheet for the icons available-->
+      
+      
+      
+      <!--body-->
+      <div class="mainbody">
+          <div class="main reveal">
+            <div class="purpose">
+              <h3 class = "under custom-font"> Purpose </h3>
+              <p class="purpose-text">
+                The purpose of jAIce is to make sure you have someone to go to for some comforting responses. This is a safe coping mechanism for the user since this allows positive venting to be taken place which can be a helpful method for people to process their emotions and reduce their stress; It can be used as a tool to aid with one’s mental well-being.
+              </p>
+              <div class="banner">
+                <div class="wsite-header">
+                </div>
+              </div>
+          </div>
+          </div>
+          
+           <div class="Main-Overview reveal">
+            <div class="purpose">
+              <h3 class = "under custom-font"> Application </h3>
+              <p class="purpose-text">
+                While the software may not be applicable to professional therapeutic processes at this stage, it can be used as a tool to aid with one’s mental wellbeing. A large component of this coping method is that the receiver of such venting listens carefully and provides positive affirmation and/or comfort, which the software aims to do. 
+              </p>
+              <p class="purpose-text">
+For further expansion, we may aim to provide practical advice, expand into a chatbot, or provide other features that are more well-suited for psychological treatment.
+              </p>
+              <div class="banner">
+                <div class="wsite-header1">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="Description-Overview reveal">
+            <div class="purpose">
+              <h3 class = "under custom-font"> Description </h3>
+              <p class="purpose-text">
+                jAIce uses a GPT-2 model developed by OpenAI. The dataset used for training is the Empathetic Dialogues dataset outlined in this <a class="url-link" href="https://arxiv.org/pdf/1811.00207.pdf"> paper</a>. We cleaned the dataset by removing all questions and removing unnecessary data and quotations. We used Python and aitextgen to help train the model.  
+              </p>
+              <p class="purpose-text">
+               There are two parameters you can adjust. Higher temperature causes the model to come up with more specific response, while top_p controls how much the model is confident in its response (higher number is a higher percent of confidence).
+              </p>
+              <div class="banner">
+                <a href='https://www.freepik.com/free-vector/woman-comforting-crying-friend-touching-her-shoulders-girl-suffering-from-anxiety-loneliness-trying-cope-with-depression-loss_12291375.htm'>
+                <div class="wsite-header2">
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+            
+
+     <!--Model-->
+      <div class="container model-container bg-primary">
+      <section class="content-section" id="trythemodel">
+            <div class="container px-4 px-lg-5 text-center">
+<!--                 <div class="row gx-4 gx-lg-5 justify-content-center"> -->
+<!--                     <div class="col-lg-5"> -->
+                        <h1 class="text-light-2 custom-font2">Test out our model here!</h1>
+                        <p class="lead mb-5"><strong>Submit whatever you would like to get off your chest, and jAIce will respond below!</strong></p>
+                        <div class="container px-4">
+                          
+              
+                        <form action="{{url_for('generate_text')}}" method="POST" source="custom" name="form-1" >
+                          <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-lg-8">
+                              <div class="form-group">
+                              <textarea class="form-control-lg" rows="4" cols="50" placeholder="Write your prompt here..." required="" id="text_gen_input" name="prompt">{{ prompt }}</textarea>
+                              </div>
+                              <div class="form-group">
+                                <button type="submit" class="btn btn-light" id="text_gen_button">Submit
+                                  </button>
+                              </div>
+                              <div class="hidden lds-ring" id="loading"><div></div><div></div><div></div><div></div></div>
+                              <script>
+                                  console.log("test");
+                                  document.getElementById("text_gen_button").onclick = function(){
+                                    console.log("test click");
+                                    document.getElementById("loading").classList.remove("hidden");
+                                    document.getElementById("results").classList.add("hidden");
+                                  }
+                              </script>
+                                
+                              <div class="form-group">
+                                <div class="Results container" id="results">
+                                  <br>
+                                <h3 class="text-light-2">Results:</h3>
+                                <ul class="generated_ul">
+                                  <p>
+                                  {{ generated }}
+                                  </p>
+                                <!-- generated items will be here. -->
+                                </ul>
+                             </div>
+                              </div>
+                            </div>
+                            <!-- Slider-->
+                            <div class="col-lg-4">
+                              <div class="slider">
+                                <input type="range" min="5" max="100" value="{{ temperature }}" class="slider" id="tempSlider" name="temperature" step="5">
+                                <label class="lead mb-5 text-light-2 qtip" data-tip="A higher temperature causes the model to come up with more specific response at the cost of accuracy.">Temperature : </label>
+                                <label id="tempDisplay">
+                                  <script>
+                                    var tempSlider = document.getElementById("tempSlider");
+                                    var tempOutput = document.getElementById("tempDisplay");
+                                    tempOutput.innerHTML = tempSlider.value;
+                                    tempSlider.oninput = function() {
+                                      tempOutput.innerHTML = this.value;
+                                    }
+                                  </script>
+                                </label>
+                                <br>
+
+                                  <input type="range" min="0" max="100" value="{{ top_p }}" class="slider" id="top_pSlider" name="top_p" step="5">
+                                <label class="lead mb-5 text-light-2 qtip" data-tip="A higher number is a higher percent of confidence of the model.">Top p : </label>
+                                <label id="top_pDisplay">
+                                  <script>
+                                    var top_pSlider = document.getElementById("top_pSlider");
+                                    var top_pOutput = document.getElementById("top_pDisplay");
+                                    top_pOutput.innerHTML = top_pSlider.value;
+                                    top_pSlider.oninput = function() {
+                                      top_pOutput.innerHTML = this.value;
+                                    }
+                                  </script>
+                                </label>
+                                <br>
+                                <button type="button" class="btn btn-light" id="reset">
+                                  
+                                    <script>
+                                      document.getElementById('reset').onclick = function(){
+                                        document.getElementById('tempSlider').value = 75;
+                                        document.getElementById('top_pSlider').value = 95;
+                                        document.getElementById('tempDisplay').innerHTML = 75;
+                                        document.getElementById('top_pDisplay').innerHTML = 95;
+                                      }
+                                    </script>
+                                    Reset Settings
+                                </button>
+                              </div>
+                            </div>
+                          
+                          </div>
+                          
+
+
+                        </form>
+                          </div>
+                        
+<!--                     </div> -->
+                  
+<!--                 </div> -->
+            </div>
+        </section>
+       </div>
+      
+     <!--end of model-->
+        <!-- Footer-->
+      
+      
+      <footer class="footer text-center">
+             <div class="container px-4 px-lg-5">
+               <!--   /*<ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/aicampdotorg/"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/AICampOfficial"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://github.com/minimaxir/aitextgen"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>-->
+                <p class="text-muted small mb-0">Copyright &copy; jAIce Synthetic Codes 2022 </p>
+            </div> 
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- TEXTGEN JS-->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/text_gen.js') }}" defer=""></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static',filename='js/scripts.js') }}"></script>
+    </body>
+</html>
