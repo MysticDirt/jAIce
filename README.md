@@ -70,7 +70,7 @@ We are a group of awesome people at AI Camp who make cool natural language proce
 Team Members:
 
 - **Chandrark Muddana**  
-  Product Manager  
+  Product Manager / Developer
 - **Chris Sanrow**  
   Lead Back End Developer  
 - **Jayce Chanas**  
