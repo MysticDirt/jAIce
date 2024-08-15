@@ -19,6 +19,8 @@ Next, open the link in the terminal to access the website.
 
 Finally, locate the model section in our website to use jAIce.
 
+THE MODEL IS NOT IN THE REPOSITORY. The file is too large to commit. I am working on a workaround.
+
 ### Warning
 
 The model is not perfect and hence may make situationally inappropriate responses.
@@ -32,7 +34,6 @@ The model is not perfect and hence may make situationally inappropriate response
 - Google Colab servers to train the model
 - HTML, CSS, and JavaScript to create the front end of the product demo
 - Flask to connect the front end and the back end
-- AI Camp servers to host the project on a domain
 
 ### Dataset
 
@@ -44,7 +45,6 @@ We also concatenated the speaker’s sentences for each response in a conversati
 ### Type of Model
 
 We used the 124M (small) version of [GPT-2](https://openai.com/blog/better-language-models/), an open-source transformer model developed by OpenAI.
-It is especially useful for text generation.
 We fine-tuned the pre-trained model using the Empathetic Response dataset.
 We used 10,000 steps to train the model.
 
