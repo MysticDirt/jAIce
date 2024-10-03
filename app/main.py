@@ -3,14 +3,6 @@
 # **IMPORTANT:** only collaborators on the project where you run
 # this can access this web server!
 
-"""
-    Bonus points if you want to have internship at AI Camp
-    1. How can we save what user built? And if we can save them, like allow them to publish, can we load the saved results back on the home page? 
-    2. Can you add a button for each generated item at the frontend to just allow that item to be added to the story that the user is building? 
-    3. What other features you'd like to develop to help AI write better with a user? 
-    4. How to speed up the model run? Quantize the model? Using a GPU to run the model? 
-"""
-
 # import basics
 import os
 
@@ -18,13 +10,22 @@ import os
 from flask import Flask, request, redirect, url_for, render_template, session
 from utils import get_base_url
 # import stuff for our models
-from aitextgen import aitextgen
+#from aitextgen import aitextgen (deprecated)
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import torch
 
 # load up a model from memory. Note you may not need all of these options.
 # ai = aitextgen(model_folder="model/",
 #                tokenizer_file="model/aitextgen.tokenizer.json", to_gpu=False)
 
-ai = aitextgen(model_folder="model/no_q_10kgpt2_model/", to_gpu=False)
+#ai = aitextgen(model_folder="model/no_q_10kgpt2_model/", to_gpu=False)
+
+#Set up HuggingFace Transformers model and tokenizer
+tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+model = GPT2LMHeadModel.from_pretrained("app/model/no_q_10kgpt2_model/")
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
 
 # setup the webserver
 # port may need to be changed if there are multiple flask servers running on same server
@@ -83,7 +84,16 @@ def generate_text():
     print(temp)
     print(top_p)
     if prompt is not None:
-        generated = ai.generate(
+        input_ids = tokenizer.encode(prompt + " {", return_tensors='pt').to(device)
+        generated_ids = model.generate(
+            input_ids,
+            max_length=300,
+            temperature=float(temp)/100,
+            top_p=float(top_p)/100,
+            do_sample=True, #Enable sampling to avoid greedy generation
+            pad_token_id=tokenizer.eos_token_id #EOS token to prevent errors in generation
+        )
+        """generated = ai.generate(
             n=1,
             #batch_size=3, (Doesn't work past transformers version 4.21.3)
             prompt=str(prompt) + " {",
@@ -91,9 +101,10 @@ def generate_text():
             temperature=float(temp)/100,
             top_p=float(top_p)/100,
             return_as_list=True
-        )
+        )"""
+        generated = tokenizer.decode(generated_ids[0], skip_special_tokens=True) #decode the output
         print(generated)
-        generated_string = generated[0].split("{")[-1].strip()
+        generated_string = generated.split("{")[-1].strip() if "{" in generated else generated #Post process output
     else:
         generated_string = "Input a prompt."
 
@@ -108,14 +119,14 @@ def generate_text():
 # for example:
 @app.route(f'{base_url}/team_members')
 def team_members():
-    return render_template('team_members.html') # would need to actually make this page
+    return render_template('team_members.html')
 
 
 if __name__ == '__main__':
     # IMPORTANT: change url to the site where you are editing this file.
-    website_url = 'cocalc6.ai-camp.dev'
+    website_url = '127.0.0.1'
 
-    print(f'Try to open\n\n    https://{website_url}' + base_url + '\n\n')
+    print(f'Try to open\n\n    http://{website_url}:{port}' + base_url + '\n\n')
     app.run(host='0.0.0.0', port=port, debug=True)
 
 
