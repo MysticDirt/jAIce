@@ -9,9 +9,13 @@
 
 ### How to Use
 
+Make sure that HuggingFace transformers is installed `pip install transformers`
+
 cd into the `/app` folder...
 
-Inside `main.py` file, edit the URL  to match the server your are running/
+Inside `main.py` file, edit the URL to match the server your are running/
+
+Right now by default it runs locally.
 
 Then, run `python3 main.py` to start the server.
 
@@ -19,7 +23,11 @@ Next, open the link in the terminal to access the website.
 
 Finally, locate the model section in our website to use jAIce.
 
-THE MODEL IS NOT IN THE REPOSITORY. The file is too large to commit. I am working on a workaround.
+THE MODEL IS NOT IN THE REPOSITORY. The file is too large to commit.
+
+I uploaded the models to HuggingFace: https://huggingface.co/MysticDirt/jAIce/tree/main
+
+Put them in the model folder to run the app.
 
 ### Warning
 
@@ -29,7 +37,7 @@ The model is not perfect and hence may make situationally inappropriate response
 
 - The datasets containing the prompts and empathetic responses (EmpatheticDialogues) https://github.com/facebookresearch/EmpatheticDialogues
 - Python, pandas, and excel to preprocess the data.
-- Python and aitextgen for the backend of the product demo
+- Python and aitextgen for the backend of the product demo (As of 10/3/2024 I switched from aitextgen to HuggingFace transformers)
 - GPT-2, the model to train on
 - Google Colab servers to train the model
 - HTML, CSS, and JavaScript to create the front end of the product demo
